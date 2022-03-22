@@ -1,0 +1,83 @@
+/*
+afbeelding
+*/
+img {
+  border-radius: 10px;
+}
+
+/*
+Fuctiebalk
+*/
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #222;
+  color: #FFFFFF;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+  background-color: #333;
+  margin-bottom: 30px;
+}
+/*
+Fuctiebalk logo
+*/
+.logoo {
+	position: absolute;
+	left: 50%;
+	color: white;
+}
+ 
+/* Diploma teller javascript desktop */
+.topnav .nav-right .datum {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*
+	Diploma teller javascript mobiel
+*/
+@media screen and (max-width: 768px) {
+	.topnav {
+		margin-top: 50px;
+	}
+	.topnav .nav-right .datum {
+		width: 100%;
+		height: 50px;
+		background: red;
+		top: 0;
+		left: 0;
+		padding: 12px;
+		position: fixed;
+		z-index: 9999;
+	}
+}
+/*
+Fuctiebalk buttons
+*/
+ .spacing { margin-bottom: 25px; }
+
+.topnav a:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+ 
+
+.topnav a.active {
+  background-color: #FF2000;
+  color: white;
+}
